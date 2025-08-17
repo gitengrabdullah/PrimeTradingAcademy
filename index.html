@@ -24,12 +24,12 @@
     header h1 {
       font-size: 2.5rem;
       margin: 0;
-      color: #ffcc00; /* Yellow */
+      color: #ffe601; /* Yellow */
     }
     header p {
       font-size: 1.2rem;
       margin: 20px 0;
-      color: #ccc;
+      color: #fff;
     }
     header a {
       display: inline-block;
@@ -40,6 +40,9 @@
       text-decoration: none;
       border-radius: 30px; /* Rounded button */
       font-weight: bold;
+    }
+    .join {
+      background-color: #007acc;
     }
     section {
       padding: 60px 20px;
@@ -74,13 +77,33 @@
       margin-top: 0;
       color: #ffcc00; /* Yellow headings */
     }
+    #cta{
+      background-color: yellow;
+      border-radius: 1rem;
+    }
+    #cta a {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #0099ff; /* Blue button */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px; /* Rounded button */
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    #cta a:hover {
+      background: #007acc; /* Darker blue on hover */
+    }
+    #cta p {
+      color: #000;
+    }
     footer {
       background: #0d1b2a;
       text-align: center;
       padding: 20px;
       margin-top: 40px;
       font-size: 0.9rem;
-      color: #888;
+      color: #fff;
     }
   </style>
 </head>
@@ -90,7 +113,7 @@
     <!-- <img src="logo.png" alt="$PRIME Trading Academy Logo" class="logo"> -->
     <h1>$PRIME Trading Academy</h1>
     <p>Master Crypto Trading with Confidence and Discipline</p>
-    <a href="#about">Join Now</a>
+    <a class="join" href="#about">Join Now</a>
   </header>
 
   <section class="video-container">
@@ -102,7 +125,7 @@
   </section>
 
   <section id="about">
-    <h2>About the Academy</h2>S
+    <h2>About the Academy</h2>
     <p>
       $PRIME Trading Academy is a crypto masterclass designed to take beginners and intermediate traders from zero to pro. 
       We combine fundamentals, technicals, risk management, and psychology in one structured program.
